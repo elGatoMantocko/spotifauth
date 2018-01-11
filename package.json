@@ -2,24 +2,36 @@
   "name": "spotifauth",
   "description": "Simple spotify authentication",
   "version": "0.0.2",
+  "repository": {
+    "url": "https://github.com/elGatoMantocko/spotifauth"
+  },
+  "bugs": {
+    "url": "https://github.com/elGatoMantocko/spotifauth/issues"
+  },
   "dependencies": {
     "http": "0.0.0",
     "querystring": "^0.2.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "eslint": "^4.15.0",
+    "eslint-config-google": "^0.9.1",
     "mocha": "^4.1.0",
-    "sinon": "^4.1.3"
+    "sinon": "^4.1.4"
   },
-  "main": "module.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha module.spec.js"
+    "lint": "node node_modules/eslint/bin/eslint.js index.js index.spec.js",
+    "test": "node node_modules/mocha/bin/mocha index.spec.js"
   },
   "keywords": [
     "spotify",
     "authentication",
     "auth"
   ],
-  "author": "Elliott Mantock",
+  "author": {
+    "name": "Elliott Mantock",
+    "email": "emantock@gmail.com"
+  },
   "license": "ISC"
 }

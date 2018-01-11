@@ -1,6 +1,6 @@
 # Spotifauth
 
-Simple Spotify authentication
+Simple Spotify authentication wrapper.
 
 Wraps the spotify `/api/token` endpoint with features for `login` and `refresh`.
 

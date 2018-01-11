@@ -1,5 +1,5 @@
 /* eslint no-unused-vars: 1 */
-const {login, refresh} = require('./module');
+const {login, refresh} = require('./index');
 const sinon = require('sinon');
 const chai = require('chai');
 
